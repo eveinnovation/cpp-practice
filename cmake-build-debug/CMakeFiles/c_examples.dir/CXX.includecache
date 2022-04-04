@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/datatypes/decimal_to_bynary_converter.cpp
+iostream
+-
+cmath
+-
+

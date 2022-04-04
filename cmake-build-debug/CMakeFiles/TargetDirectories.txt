@@ -1,0 +1,3 @@
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles/c_examples.dir

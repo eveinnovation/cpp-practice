@@ -3,4 +3,6 @@ project(c_examples)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_examples datatypes/decimal_to_bynary_converter.cpp)
+add_library(lotto functions/lotto.cpp)
+add_library(arrfun functions/array/arrfun.cpp)
+add_executable(c_examples functions/recursion/ruler.cpp)

@@ -8,3 +8,7 @@
  integrate webrtc example:
  https://github.com/llamerada-jp/webrtc-cpp-sample
  https://github.com/MemeTao/webrtc-native-examples
+ 
+ indirect membership operator (->)
+ membership (dot) operator
+ operator precedence (*ps)[20]

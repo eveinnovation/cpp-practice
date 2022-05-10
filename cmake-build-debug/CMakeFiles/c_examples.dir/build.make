@@ -57,27 +57,27 @@ include CMakeFiles/c_examples.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_examples.dir/flags.make
 
-CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o: CMakeFiles/c_examples.dir/flags.make
-CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o: ../datatypes/decimal_to_bynary_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o -c /Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/datatypes/decimal_to_bynary_converter.cpp
+CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o: CMakeFiles/c_examples.dir/flags.make
+CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o: ../functions/recursion/ruler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o -c /Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/functions/recursion/ruler.cpp
 
-CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/datatypes/decimal_to_bynary_converter.cpp > CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.i
+CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/functions/recursion/ruler.cpp > CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.i
 
-CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/datatypes/decimal_to_bynary_converter.cpp -o CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.s
+CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/functions/recursion/ruler.cpp -o CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.s
 
 # Object files for target c_examples
 c_examples_OBJECTS = \
-"CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o"
+"CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o"
 
 # External object files for target c_examples
 c_examples_EXTERNAL_OBJECTS =
 
-c_examples: CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o
+c_examples: CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o
 c_examples: CMakeFiles/c_examples.dir/build.make
 c_examples: CMakeFiles/c_examples.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c_examples"

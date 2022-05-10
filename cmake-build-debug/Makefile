@@ -123,32 +123,112 @@ c_examples/fast:
 	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/build
 .PHONY : c_examples/fast
 
-datatypes/decimal_to_bynary_converter.o: datatypes/decimal_to_bynary_converter.cpp.o
+#=============================================================================
+# Target rules for targets named arrfun
 
-.PHONY : datatypes/decimal_to_bynary_converter.o
+# Build rule for target.
+arrfun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun
+.PHONY : arrfun
+
+# fast build rule for target.
+arrfun/fast:
+	$(MAKE) -f CMakeFiles/arrfun.dir/build.make CMakeFiles/arrfun.dir/build
+.PHONY : arrfun/fast
+
+#=============================================================================
+# Target rules for targets named lotto
+
+# Build rule for target.
+lotto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lotto
+.PHONY : lotto
+
+# fast build rule for target.
+lotto/fast:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
+.PHONY : lotto/fast
+
+functions/array/arrfun.o: functions/array/arrfun.cpp.o
+
+.PHONY : functions/array/arrfun.o
 
 # target to build an object file
-datatypes/decimal_to_bynary_converter.cpp.o:
-	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o
-.PHONY : datatypes/decimal_to_bynary_converter.cpp.o
+functions/array/arrfun.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun.dir/build.make CMakeFiles/arrfun.dir/functions/array/arrfun.cpp.o
+.PHONY : functions/array/arrfun.cpp.o
 
-datatypes/decimal_to_bynary_converter.i: datatypes/decimal_to_bynary_converter.cpp.i
+functions/array/arrfun.i: functions/array/arrfun.cpp.i
 
-.PHONY : datatypes/decimal_to_bynary_converter.i
+.PHONY : functions/array/arrfun.i
 
 # target to preprocess a source file
-datatypes/decimal_to_bynary_converter.cpp.i:
-	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.i
-.PHONY : datatypes/decimal_to_bynary_converter.cpp.i
+functions/array/arrfun.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun.dir/build.make CMakeFiles/arrfun.dir/functions/array/arrfun.cpp.i
+.PHONY : functions/array/arrfun.cpp.i
 
-datatypes/decimal_to_bynary_converter.s: datatypes/decimal_to_bynary_converter.cpp.s
+functions/array/arrfun.s: functions/array/arrfun.cpp.s
 
-.PHONY : datatypes/decimal_to_bynary_converter.s
+.PHONY : functions/array/arrfun.s
 
 # target to generate assembly for a file
-datatypes/decimal_to_bynary_converter.cpp.s:
-	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.s
-.PHONY : datatypes/decimal_to_bynary_converter.cpp.s
+functions/array/arrfun.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun.dir/build.make CMakeFiles/arrfun.dir/functions/array/arrfun.cpp.s
+.PHONY : functions/array/arrfun.cpp.s
+
+functions/lotto.o: functions/lotto.cpp.o
+
+.PHONY : functions/lotto.o
+
+# target to build an object file
+functions/lotto.cpp.o:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/functions/lotto.cpp.o
+.PHONY : functions/lotto.cpp.o
+
+functions/lotto.i: functions/lotto.cpp.i
+
+.PHONY : functions/lotto.i
+
+# target to preprocess a source file
+functions/lotto.cpp.i:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/functions/lotto.cpp.i
+.PHONY : functions/lotto.cpp.i
+
+functions/lotto.s: functions/lotto.cpp.s
+
+.PHONY : functions/lotto.s
+
+# target to generate assembly for a file
+functions/lotto.cpp.s:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/functions/lotto.cpp.s
+.PHONY : functions/lotto.cpp.s
+
+functions/recursion/ruler.o: functions/recursion/ruler.cpp.o
+
+.PHONY : functions/recursion/ruler.o
+
+# target to build an object file
+functions/recursion/ruler.cpp.o:
+	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o
+.PHONY : functions/recursion/ruler.cpp.o
+
+functions/recursion/ruler.i: functions/recursion/ruler.cpp.i
+
+.PHONY : functions/recursion/ruler.i
+
+# target to preprocess a source file
+functions/recursion/ruler.cpp.i:
+	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.i
+.PHONY : functions/recursion/ruler.cpp.i
+
+functions/recursion/ruler.s: functions/recursion/ruler.cpp.s
+
+.PHONY : functions/recursion/ruler.s
+
+# target to generate assembly for a file
+functions/recursion/ruler.cpp.s:
+	$(MAKE) -f CMakeFiles/c_examples.dir/build.make CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.s
+.PHONY : functions/recursion/ruler.cpp.s
 
 # Help Target
 help:
@@ -156,12 +236,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... c_examples"
+	@echo "... arrfun"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... c_examples"
-	@echo "... datatypes/decimal_to_bynary_converter.o"
-	@echo "... datatypes/decimal_to_bynary_converter.i"
-	@echo "... datatypes/decimal_to_bynary_converter.s"
+	@echo "... lotto"
+	@echo "... functions/array/arrfun.o"
+	@echo "... functions/array/arrfun.i"
+	@echo "... functions/array/arrfun.s"
+	@echo "... functions/lotto.o"
+	@echo "... functions/lotto.i"
+	@echo "... functions/lotto.s"
+	@echo "... functions/recursion/ruler.o"
+	@echo "... functions/recursion/ruler.i"
+	@echo "... functions/recursion/ruler.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/datatypes/decimal_to_bynary_converter.cpp" "/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o"
+  "/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/functions/recursion/ruler.cpp" "/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/cmake-build-debug/CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

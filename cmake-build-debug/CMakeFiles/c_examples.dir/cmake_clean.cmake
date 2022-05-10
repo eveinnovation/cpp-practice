@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_examples.dir/datatypes/decimal_to_bynary_converter.cpp.o"
+  "CMakeFiles/c_examples.dir/functions/recursion/ruler.cpp.o"
   "c_examples"
   "c_examples.pdb"
 )

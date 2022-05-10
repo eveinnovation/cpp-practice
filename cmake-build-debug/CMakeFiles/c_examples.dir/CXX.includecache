@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/datatypes/decimal_to_bynary_converter.cpp
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/book-practices/c-examples/functions/struct/structfun.cpp
 iostream
 -
 cmath

@@ -53,4 +53,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/c_examples.dir/DependInfo.cmake"
+  "CMakeFiles/arrfun.dir/DependInfo.cmake"
+  "CMakeFiles/lotto.dir/DependInfo.cmake"
   )
